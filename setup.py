@@ -5,4 +5,4 @@ setup(name='ha60bifi',
       author='DSSS',
       author_email='haldun.bucak@fau.de',
       packages=find_packages(),
-      install_requires=['numpy', 'Pillow', 'ipywidgets', 'matplotlib.pyplot'])
+      install_requires=['numpy', 'Pillow', 'ipywidgets', 'matplotlib'])
