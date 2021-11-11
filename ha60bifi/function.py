@@ -5,11 +5,11 @@ from PIL import Image
 
 
 def imshow(X, resize=None):
-    """
-    You should create a way to resize an image from an array X.
-    The use of widgets is optional but you can take a look to interact.
-    We should be able to install this package in Google Colab from your Git
-    repo.
+    """[Changes the shape of the image X to the desired shape (width, height)]
+
+    Args:
+        X ([Array]): [Array that will be converted to Pillow Image]
+        resize ([2-tuple], optional): [New (width, height) of the image]. Defaults to None.
     """
 
     img = Image.fromarray(X, 'RGB')
