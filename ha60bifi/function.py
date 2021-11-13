@@ -12,7 +12,7 @@ def imshow(X, resize=None):
         resize ([2-tuple], optional): [New (width, height) of the image]. Defaults to None.
     """
 
-    img = Image.fromarray(np.unit8(X), 'RGB')
+    img = Image.fromarray(X, 'RGB')
 
     if resize!=None:
         resizedImg = img.resize(resize)
